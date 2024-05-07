@@ -9,10 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@stomp/stompjs": "^7.0.0",
+    "@types/react": "^18.3.1",
+    "eventemitter3": "^3.1.0",
     "expo": "~50.0.17",
     "expo-status-bar": "~1.11.1",
+    "prop-types": "^15.7.2",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "react-native-use-websocket": "^0.2.6",
+    "react-stompjs": "^0.5.3",
+    "sockjs-client": "^1.3.0",
+    "stompjs": "^2.3.3",
+    "text-encoding": "^0.7.0",
+    "typescript": "^5.4.5",
+    "ws": "^8.17.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
