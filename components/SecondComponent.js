@@ -29,7 +29,7 @@ const UserSetting = () => {
    addStompEventListener(StompEventTypes.WebSocketClose, webSocketCloseListener);
 
     setSession(newStompClient(
-      'https://isw-psb-test-sc-superstore-sales-nano.azuremicroservices.io/websocket',
+      'http://localhost:8080/websocket',
       {
         token: 'abc',
         userId: '123',
